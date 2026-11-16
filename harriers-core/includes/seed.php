@@ -191,7 +191,7 @@ function hs_seed_starter_content( $step = null ) {
 		array( 'Under 10s', 'Swansea Prom junior parkrun', 'Ages 4–14', 'Sundays, 9am', 'Free', 'Swansea Promenade, Mumbles Road SA2 0AY', '', 'A weekly 2k. Register once with parkrun and bring your barcode.' ),
 		array( 'Juniors · school years 5–11', 'Fundamentals', 'School years 5–7', 'Tue, Wed or Thu, 5–6.15pm', '£3.60 per session', 'Indoor Athletics Centre, Swansea University', '', 'Skill development over performance. Contactless payment on arrival at the club café.' ),
 		array( 'Juniors · school years 5–11', 'Foundation', 'School years 8–11', 'Wed, 6.30–8pm', '£3.60 per session', 'Indoor Athletics Centre, Swansea University', '', 'All events, building towards league and championship competition.' ),
-		array( 'Juniors · school years 5–11', 'Junior XC & endurance', 'Juniors', 'Varies by age & ability', '£3.60 per session', 'Swansea University Athletics Centre', 'John Griffiths, Rob Buchan, Kevin Tobin', 'Prepares juniors for the Gwent League, West Glamorgan XC and track.' ),
+		array( 'Juniors · school years 5–11', 'Junior XC & endurance', 'Juniors', 'Varies by age & ability', '£3.60 per session', 'Swansea University Athletics Centre', 'Anthony Clements (lead coach) and his junior endurance coaching team', 'Led by Anthony Clements, our junior endurance team looks after 50+ athletes, preparing them for the Gwent League, West Glamorgan XC, road and track.' ),
 		array( 'Track & field squads', 'Sprints & hurdles', 'Junior & senior squads', 'Varies by age & ability', '£3.60 per session', 'Swansea University Athletics Centre', 'Andrew Griffiths, Judith Gooding, Lynne Brier, Neal Merry, Wendy Slade, Rob Jones, Graham (Tony) Morris', '' ),
 		array( 'Track & field squads', 'Long & triple jump', 'Junior & senior squads', 'Varies by age & ability', '£3.60 per session', 'Swansea University Athletics Centre', 'Steve Ingram, Rob Gilroy (juniors)', '' ),
 		array( 'Track & field squads', 'High jump', 'Junior & senior squads', 'Varies by age & ability', '£3.60 per session', 'Swansea University Athletics Centre', 'Stephen Ryan, Rob Jones', '' ),
@@ -221,7 +221,7 @@ function hs_seed_starter_content( $step = null ) {
 	$coaches = array(
 		array( 'Adrianne Cleverly', 'Coaching Assistant', 'Juniors' ), array( 'Andrew Cleverly', 'Coaching Assistant', 'Juniors · Seniors Endurance (faster group)' ),
 		array( 'Andrew Griffiths', 'Coach', 'Hurdles & Juniors' ), array( 'Andrew Jenkins', 'Coach', 'Juniors · Club Coaching Coordinator' ),
-		array( 'Anthony Clements', 'CiRF & Coach', 'Endurance' ), array( 'Bethan Holley', 'Coaching Assistant', 'Juniors' ),
+		array( 'Anthony Clements', 'CiRF & Coach', 'Juniors Endurance lead coach' ), array( 'Bethan Holley', 'Coaching Assistant', 'Juniors' ),
 		array( 'Caroline Wade', 'Coach', 'Juniors' ), array( 'Catherine Collins', 'Coach', 'Juniors' ), array( 'Chris Higgs', 'Coach', 'Juniors' ),
 		array( 'Craig Guite', 'Coach', 'Pole Vault & Juniors' ), array( 'Daniel Newton', 'Coach · LiRF', 'Seniors Endurance' ),
 		array( 'David Lewis', 'Coaching Assistant', 'Juniors' ), array( 'David Dix', 'Coach', 'Juniors, Jumps & Throws' ),

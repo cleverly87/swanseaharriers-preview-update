@@ -474,3 +474,19 @@ a.hs-row-card:hover { color: var(--hs-ink); border-color: var(--hs-line-strong);
 
 /* Skip-link target: no focus ring on the whole page area when jumped to. */
 #main:focus { outline: none; }
+
+/* Hall of Fame: roll-of-honour tables (core Table block with class "hs-roll") */
+.hs-roll { margin: 0 0 32px; overflow-x: auto; border: 1px solid var(--hs-line); border-radius: 12px; }
+.hs-roll table { width: 100%; min-width: 560px; border-collapse: collapse; font-size: 14px; }
+.hs-roll thead tr { background: var(--hs-green-900); color: #fff; }
+.hs-roll th, .hs-roll td { padding: 10px 14px; text-align: left; border: 0; }
+.hs-roll tbody tr { border-top: 1px solid var(--hs-line); }
+.hs-roll tbody tr:nth-child(even) { background: #F7FBF8; }
+.hs-roll td:nth-child(3) { font-weight: 600; }
+.hs-roll strong { color: var(--hs-green-900); background: var(--hs-bright); padding: 2px 8px; border-radius: 999px; font-size: 12px; }
+.hs-note { font-size: 14px; color: var(--hs-muted, #5b6b60); }
+@media (max-width: 640px) {
+	.hs-roll { overflow: visible; }
+	.hs-roll table { min-width: 0; font-size: 13px; }
+	.hs-roll th, .hs-roll td { padding: 8px 6px; vertical-align: top; }
+}
