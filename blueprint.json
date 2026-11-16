@@ -32,7 +32,7 @@
 			"step": "installPlugin",
 			"pluginData": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/cleverly87/swanseaharriers-preview/main/dist/harriers-core-plugin.zip"
+				"url": "https://raw.githubusercontent.com/cleverly87/swanseaharriers-preview-update/main/dist/harriers-core-plugin.zip"
 			},
 			"options": {
 				"activate": true
@@ -42,7 +42,7 @@
 			"step": "installTheme",
 			"themeData": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/cleverly87/swanseaharriers-preview/main/dist/swansea-harriers-theme.zip"
+				"url": "https://raw.githubusercontent.com/cleverly87/swanseaharriers-preview-update/main/dist/swansea-harriers-theme.zip"
 			},
 			"options": {
 				"activate": true
