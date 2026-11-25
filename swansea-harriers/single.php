@@ -21,7 +21,7 @@ while ( have_posts() ) :
 		</nav>
 		<div class="hs-with-aside">
 			<article class="hs-main hs-article" style="gap:22px">
-				<div class="hs-news-card__meta"><?php hs_the_post_tag(); ?><span>Posted <?php echo esc_html( get_the_date( 'j F Y' ) ); ?> · by <?php the_author(); ?></span></div>
+				<div class="hs-news-card__meta"><?php hs_the_post_tag(); ?><span>Posted <?php echo esc_html( get_the_date( 'j F Y' ) ); ?><?php if ( get_the_author() ) : ?> · by <?php the_author(); ?><?php endif; ?></span></div>
 				<h1><?php the_title(); ?></h1>
 				<?php if ( has_excerpt() ) : ?><p class="hs-article__lead"><?php echo esc_html( get_the_excerpt() ); ?></p><?php endif; ?>
 				<?php if ( has_post_thumbnail() ) : ?><div class="hs-article__img"><?php the_post_thumbnail( 'large' ); ?></div><?php endif; ?>
